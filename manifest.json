@@ -10,5 +10,5 @@
     "default_popup": "html/popup.html",
     "default_title": "Blockify"
   },
-  "permissions": [ "http://*/*", "https://*/*", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking", "contentSettings", "storage", "notifications" ]
+  "permissions": [ "http://*/*", "https://*/*", "tabs", "unlimitedStorage", "webRequest", "webRequestBlocking", "storage", "notifications" ]
 }
