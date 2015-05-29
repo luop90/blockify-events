@@ -9,8 +9,8 @@ function getVersion() {
 var version = getVersion();
 
 chrome.webRequest.onBeforeRequest.addListener(function(e) {
-
+  console.log("onBeforeRequest found~!");
 });
 chrome.webRequest.onBeforeRedirect.addListener(function(e) {
-
+  console.log("onBeforeRedirect found!");
 });
